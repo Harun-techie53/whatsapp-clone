@@ -1,0 +1,104 @@
+.chat{
+  flex: 0.65;
+  display:flex;
+  flex-direction: column;
+}
+
+.chat__header{
+  display: flex;
+  padding: 17px;
+  border-bottom: 1px solid lightgray;
+}
+
+.chat__headerLeft{
+  display: flex;
+  flex: 1;
+}
+
+.chat__headerInfo{
+  margin-top: -5px;
+  padding-left: 15px;
+}
+
+.chat__headerInfo > p{
+  color: gray;
+}
+
+.chat__headerRight{
+  display: flex;
+  align-items: center;
+}
+
+.chat__body{
+  background-image: url("./wallpaper1.png");
+  position: relative;
+ overflow: scroll;
+  flex: 1;
+}
+
+.chat__bodyImage{
+  background-position: absolute;
+  width: 100%;
+}
+
+.chat__footer{
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+  background-color: #ebebeb;
+}
+
+.chat__footer > form {
+  display: flex;
+  flex: 1;
+}
+
+.chat__footer > form > input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.chat__footer > form > button{
+  display: none;
+  width: 5px;
+}
+
+.chat__messageSent{
+  margin: 10px;
+  background-color: lightgreen;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.chat__messageItem{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.chat__messageReceived{
+  margin: 10px;
+  background-color: whitesmoke;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.chat__messageUser{
+  margin-top: -15px;
+  font-size: x-small;
+}
+
+.chat__messageTimeStamp{
+  margin-left: 5px;
+  color: gray;
+  font-size: xx-small;
+}

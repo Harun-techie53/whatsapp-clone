@@ -1,0 +1,6 @@
+{
+    "prettier.jsxBracketSameLine": true,
+    "prettier.requireConfig": true,
+    "prettier.withNodeModules": true,
+    "editor.formatOnSave": true
+}
